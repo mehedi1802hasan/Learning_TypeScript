@@ -1,3 +1,5 @@
+{
+
 //Leaning Type
 ////  Normal Type 
 // Array Type
@@ -21,3 +23,5 @@ const poorUser={
 
 const arr : number[]=[1,3,5];
 const newArray:number[] =arr.map((elem:number):number=>elem*elem)
+
+}
