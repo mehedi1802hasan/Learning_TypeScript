@@ -41,6 +41,23 @@ const user1 : userWithRole2 ={
 }
 
 
+///
+//  we know in Js object ,Array, Fucntion also>> Object 
 
-    //
+type Roll1 = number[];
+// array in interface 
+interface Roll2 {
+    [index : number] : number;
+}
+
+const rollNumber1 : Roll2 = [1,2,3,4]
+
+
+type Add1 = (num1 : number , num2: number)=>number;
+//  Function in interface
+interface Add2 {
+    (num1: number, num2: number) : number 
+} 
+ const add : Add2 =(num1,num2)=>num1 + num2;
+//
 }
